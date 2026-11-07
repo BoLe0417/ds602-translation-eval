@@ -1,0 +1,103 @@
+﻿id,domain,difficulty,source_en,reference_zh,glossary
+A01,academic,easy,The workshop starts at 9:30 a.m. on 14 October 2026 and ends at noon.,研讨会于2026年10月14日上午9:30开始，中午结束。,workshop=研讨会
+A02,academic,medium,Students must submit the final report as a PDF; editable files will not be graded.,学生必须以PDF格式提交最终报告；可编辑文件将不予评分。,final report=最终报告;graded=评分
+A03,academic,hard,"Although attendance is not graded directly, students who miss more than two tutorials without approved leave may be barred from the final presentation.",虽然出勤不直接计分，但无获批请假而缺席超过两次辅导课的学生，可能被禁止参加最终展示。,tutorial=辅导课;approved leave=获批请假;final presentation=最终展示
+A04,academic,hard,"The study found a statistically significant association, but it did not establish a causal relationship.",该研究发现了具有统计显著性的关联，但并未确立因果关系。,statistically significant=具有统计显著性;causal relationship=因果关系
+A05,academic,hard,"Candidates may bring one double-sided A4 reference sheet, provided that it contains no removable notes or electronic components.",考生可携带一张双面A4参考资料，但其中不得夹带可取下的纸条或含有电子元件。,double-sided=双面;reference sheet=参考资料
+A06,academic,hard,No extension will be granted merely because several assessments are due in the same week.,不得仅因同一周有多项考核到期而批准延期。,extension=延期;assessments=考核
+B01,business,easy,The quoted price excludes a 9% goods and services tax and is valid for 30 calendar days.,报价不含9%的商品及服务税，有效期为30个日历日。,goods and services tax=商品及服务税;calendar days=日历日
+B02,business,medium,Either party may terminate the agreement by giving 60 days’ written notice.,任何一方均可提前60天发出书面通知以终止本协议。,terminate=终止;written notice=书面通知
+B03,business,hard,"Revenue increased by 8.4% year on year, whereas operating profit fell by S$1.2 million because of higher logistics costs.",营收同比增长8.4%，但由于物流成本上升，营业利润减少了120万新元。,year on year=同比;operating profit=营业利润;logistics costs=物流成本
+B04,business,hard,This proposal is non-binding and remains subject to satisfactory due diligence and board approval.,本提案不具约束力，且仍须通过令人满意的尽职调查并获得董事会批准。,non-binding=不具约束力;due diligence=尽职调查;board approval=董事会批准
+B05,business,hard,The forecast assumes stable exchange rates; a 5% depreciation of the yen would reduce the margin by approximately 0.7 percentage points.,该预测假设汇率保持稳定；日元贬值5%将使利润率下降约0.7个百分点。,depreciation=贬值;margin=利润率;percentage points=个百分点
+B06,business,medium,"Payment is due upon receipt of the invoice, unless a different credit period has been agreed in writing.",款项应在收到发票时支付，除非双方已书面约定其他信用期限。,invoice=发票;credit period=信用期限
+T01,technical,easy,Restart the service only after the database backup has completed successfully.,仅在数据库备份成功完成后才重新启动服务。,service=服务;database backup=数据库备份
+T02,technical,medium,The API returns HTTP 429 when the client exceeds 120 requests per minute.,当客户端每分钟超过120次请求时，该API会返回HTTP 429。,client=客户端;requests per minute=每分钟请求数
+T03,technical,hard,"Encryption at rest protects stored data, while transport layer security protects data in transit.",静态加密保护已存储的数据，而传输层安全协议保护传输中的数据。,encryption at rest=静态加密;transport layer security=传输层安全协议;data in transit=传输中的数据
+T04,technical,medium,Set the environment variable `MAX_RETRIES=3` before running the deployment script.,运行部署脚本之前，请设置环境变量`MAX_RETRIES=3`。,environment variable=环境变量;deployment script=部署脚本
+T05,technical,hard,The patch addresses a race condition that could cause two workers to update the same record simultaneously.,该补丁修复了一个竞态条件，该问题可能导致两个工作进程同时更新同一条记录。,patch=补丁;race condition=竞态条件;workers=工作进程
+T06,technical,hard,Increasing the batch size improves throughput but may also increase tail latency and memory consumption.,增大批次大小可提高吞吐量，但也可能增加尾部延迟和内存消耗。,batch size=批次大小;throughput=吞吐量;tail latency=尾部延迟
+C01,customer_service,easy,Your refund of S$78.50 will be returned to the original payment method within five to seven business days.,您的78.50新元退款将在五至七个工作日内退回原支付方式。,refund=退款;original payment method=原支付方式
+C02,customer_service,medium,We can change the delivery address only if the parcel has not yet left our warehouse.,只有在包裹尚未离开仓库的情况下，我们才能更改送货地址。,delivery address=送货地址;warehouse=仓库
+C03,customer_service,hard,"The promotional code cannot be combined with a student discount, but you may use whichever option gives you the greater saving.",促销代码不能与学生折扣同时使用，但您可以选择优惠金额较高的一种。,promotional code=促销代码;student discount=学生折扣
+C04,customer_service,medium,"If you did not authorize this transaction, freeze the card immediately and contact us at +65 6123 4567.",如果这笔交易未经您授权，请立即冻结银行卡并致电+65 6123 4567联系我们。,authorize=授权;freeze the card=冻结银行卡
+C05,customer_service,hard,We are unable to waive the late fee because the payment was received three days after the extended deadline.,由于付款是在延长后的截止日期三天后收到的，我们无法免除滞纳金。,waive=免除;late fee=滞纳金;extended deadline=延长后的截止日期
+C06,customer_service,hard,"The replacement is free, provided that the damage was not caused by misuse, accidental impact, or unauthorized repair.",如果损坏并非由误用、意外撞击或未经授权的维修造成，我们将免费更换。,replacement=更换;misuse=误用;unauthorized repair=未经授权的维修
+F01,formatting,medium,Order summary:\n- 2 × USB-C cable: S$18.00\n- 1 × Adapter: S$42.00\nTotal: S$78.00,订单摘要：\n- 2 × USB-C线缆：18.00新元\n- 1 × 适配器：42.00新元\n总计：78.00新元,Order summary=订单摘要;Adapter=适配器;Total=总计
+F02,formatting,medium,Visit https://example.org/help?q=returns or email support@example.org.,请访问https://example.org/help?q=returns或发送电子邮件至support@example.org。,
+F03,formatting,hard,"Run `pip install acme-sdk`, then call `client.connect(timeout=30)`.",运行`pip install acme-sdk`，然后调用`client.connect(timeout=30)`。,Run=运行;then call=然后调用
+F04,formatting,medium,Status: **Approved** | Reference: `PO-2026-00481` | Valid until: 2026-11-30,状态：**已批准** | 参考编号：`PO-2026-00481` | 有效期至：2026-11-30,Approved=已批准;Reference=参考编号;Valid until=有效期至
+F05,formatting,hard,The sensor operates between −20°C and 55°C at 10%–90% relative humidity.,该传感器可在−20°C至55°C、相对湿度10%–90%的环境中运行。,relative humidity=相对湿度
+F06,formatting,hard,Warning: deleting `/data/archive/` cannot be undone. Type `DELETE` to continue.,警告：删除`/data/archive/`后无法撤销。请输入`DELETE`以继续。,Warning=警告;cannot be undone=无法撤销
+S01,stress,hard,The manager did not approve the request because the supporting evidence was incomplete.,经理没有批准该请求，因为证明材料不完整。,supporting evidence=证明材料
+S02,stress,hard,Only employees who have not completed the training are required to attend Friday’s session.,只有尚未完成培训的员工才必须参加周五的课程。,required to attend=必须参加
+S03,stress,hard,We cannot rule out the possibility that the apparent improvement resulted from seasonal demand rather than the campaign.,我们不能排除这种可能性：表面上的改善源于季节性需求，而非此次营销活动。,rule out=排除;seasonal demand=季节性需求;campaign=营销活动
+S04,stress,hard,"Unless the regulator objects within 21 days, the revised procedure will take effect on 1 January 2027.",除非监管机构在21天内提出异议，否则修订后的程序将于2027年1月1日生效。,regulator=监管机构;take effect=生效
+S05,stress,hard,The warranty covers neither cosmetic damage nor faults caused by software that the manufacturer did not supply.,保修既不涵盖外观损坏，也不涵盖由非制造商提供的软件造成的故障。,warranty=保修;cosmetic damage=外观损坏;faults=故障
+S06,stress,hard,"Had the alert been issued five minutes earlier, the operator could have prevented the shutdown.",如果警报早五分钟发出，操作员本可以避免停机。,alert=警报;operator=操作员;shutdown=停机
+A07,academic,medium,"The dataset contains 12,480 observations collected from 36 sites across five countries.","该数据集包含从五个国家的36个地点收集的12,480条观测记录。",dataset=数据集;observations=观测记录
+A08,academic,hard,"The confidence interval ranges from 0.18 to 0.42, suggesting that the estimated effect is positive but imprecise.",置信区间为0.18至0.42，表明估计效应为正，但精确度不高。,confidence interval=置信区间;estimated effect=估计效应
+A09,academic,medium,Applications received after the deadline will be considered only if places remain available.,逾期收到的申请仅在仍有名额的情况下才会被考虑。,deadline=截止日期;places remain available=仍有名额
+A10,academic,hard,"Candidates may bring one double-sided A4 reference sheet, provided that it contains no removable notes or electronic components.",考生可携带一张双面A4参考资料，但其中不得夹带可取下的纸条或含有电子元件。,double-sided=双面;reference sheet=参考资料
+A11,academic,medium,Please distinguish between a model that predicts well and one that explains the underlying mechanism.,请区分预测表现良好的模型与能够解释底层机制的模型。,underlying mechanism=底层机制
+A12,academic,hard,"Participants were randomly assigned to the treatment group, but neither the participants nor the researchers were blinded.",参与者被随机分配到治疗组，但参与者和研究人员均未实行盲法。,randomly assigned=随机分配;treatment group=治疗组;blinded=实行盲法
+A13,academic,medium,The literature review should synthesize competing explanations rather than merely list previous studies.,文献综述应综合分析相互竞争的解释，而不应只是罗列以往研究。,literature review=文献综述;synthesize=综合分析
+A14,academic,hard,"A p-value above 0.05 does not, by itself, prove that the null hypothesis is true.",p值高于0.05本身并不能证明原假设为真。,p-value=p值;null hypothesis=原假设
+A15,academic,medium,"Students may cite the preprint, provided that they clearly indicate that it has not undergone peer review.",学生可以引用该预印本，但必须明确说明其尚未经过同行评审。,preprint=预印本;peer review=同行评审
+A16,academic,hard,The apparent contradiction disappears once the outcome is disaggregated by age group and baseline risk.,按年龄组和基线风险对结果进行分解后，表面上的矛盾便消失了。,disaggregated=分解;baseline risk=基线风险
+B07,business,medium,The supplier shall replace defective units at no additional charge within ten business days.,供应商应在十个工作日内免费更换有缺陷的产品。,defective units=有缺陷的产品;business days=工作日
+B08,business,medium,Customers who renew before 31 December will retain the current monthly rate of US$49.90.,在12月31日前续订的客户可继续享有每月49.90美元的现行价格。,renew=续订;monthly rate=每月价格
+B09,business,medium,Please escalate unresolved complaints to the regional service manager within 24 hours.,请在24小时内将未解决的投诉上报给区域服务经理。,escalate=上报;unresolved complaints=未解决的投诉
+B10,business,medium,The pilot reduced average handling time from 11.6 minutes to 8.9 minutes without lowering customer satisfaction.,试点将平均处理时间从11.6分钟缩短至8.9分钟，同时没有降低客户满意度。,pilot=试点;average handling time=平均处理时间
+B11,business,hard,"Ownership transfers upon full payment, but the risk of loss passes to the buyer when the goods are delivered.",所有权在全额付款后转移，但货物交付时灭失风险即转由买方承担。,ownership=所有权;risk of loss=灭失风险
+B12,business,hard,"The discount applies to the licence fee only and does not cover implementation, training, or third-party charges.",该折扣仅适用于许可费，不包括实施、培训或第三方费用。,licence fee=许可费;third-party charges=第三方费用
+B13,business,medium,Net cash provided by operating activities was S$4.6 million for the six months ended 30 June 2026.,截至2026年6月30日止六个月，经营活动产生的现金净额为460万新元。,net cash=现金净额;operating activities=经营活动
+B14,business,hard,"If the service-level target is missed for three consecutive months, the customer may claim a credit equal to 10% of the monthly fee.",如果连续三个月未达到服务水平目标，客户可申请相当于月费10%的抵扣额。,service-level target=服务水平目标;credit=抵扣额
+B15,business,medium,The figures are unaudited and may be adjusted when the annual financial statements are finalized.,这些数据未经审计，可能会在年度财务报表定稿时作出调整。,unaudited=未经审计;financial statements=财务报表
+B16,business,hard,Neither the forecast nor the sensitivity analysis accounts for a prolonged interruption to the supply chain.,预测和敏感性分析均未考虑供应链长期中断的情况。,sensitivity analysis=敏感性分析;supply chain=供应链
+T07,technical,medium,Do not expose the access token in client-side logs or version-control history.,请勿在客户端日志或版本控制历史记录中暴露访问令牌。,access token=访问令牌;version-control history=版本控制历史记录
+T08,technical,medium,The model achieved 91.3% precision and 76.8% recall on the held-out test set.,该模型在留出测试集上取得了91.3%的精确率和76.8%的召回率。,precision=精确率;recall=召回率;held-out test set=留出测试集
+T09,technical,hard,A cache hit avoids the upstream request; a cache miss triggers retrieval and stores the response for 15 minutes.,缓存命中可避免向上游发送请求；缓存未命中则会触发检索，并将响应存储15分钟。,cache hit=缓存命中;cache miss=缓存未命中;upstream request=上游请求
+T10,technical,medium,The checksum must match before the downloaded file can be installed.,只有校验和一致，才能安装下载的文件。,checksum=校验和
+T11,technical,hard,The retry mechanism uses exponential backoff with jitter to prevent synchronized requests from overwhelming the server.,重试机制采用带抖动的指数退避，以防同步请求使服务器不堪重负。,exponential backoff=指数退避;jitter=抖动
+T12,technical,medium,Rotate the encryption key every 90 days and revoke it immediately if compromise is suspected.,每90天轮换一次加密密钥；如果怀疑密钥已泄露，应立即将其撤销。,rotate=轮换;revoke=撤销;compromise=泄露
+T13,technical,hard,"Because the index is eventually consistent, a newly created record may not appear in search results immediately.",由于该索引采用最终一致性，新创建的记录可能不会立即出现在搜索结果中。,eventually consistent=最终一致性;index=索引
+T14,technical,medium,Use parameterized queries instead of concatenating untrusted input into the SQL statement.,应使用参数化查询，而不要将不可信输入拼接到SQL语句中。,parameterized queries=参数化查询;untrusted input=不可信输入
+T15,technical,hard,Quantization reduced memory use by 46% but caused a 1.8-percentage-point decrease in macro F1.,量化使内存使用量减少了46%，但导致宏平均F1下降1.8个百分点。,quantization=量化;macro F1=宏平均F1;percentage-point=个百分点
+T16,technical,hard,The endpoint is idempotent: repeating the same request with the same key must not create another payment.,该端点具有幂等性：使用相同密钥重复同一请求不得再次产生付款。,endpoint=端点;idempotent=幂等性
+C07,customer_service,medium,"Your subscription has been cancelled, and you will retain access until the end of the current billing cycle.",您的订阅已取消，在当前计费周期结束前您仍可继续使用服务。,subscription=订阅;billing cycle=计费周期
+C08,customer_service,medium,"For security reasons, our agents will never ask for your full password or one-time PIN.",出于安全原因，我们的客服人员绝不会索要您的完整密码或一次性验证码。,one-time PIN=一次性验证码;agents=客服人员
+C09,customer_service,hard,"Although the item appears in stock online, availability is not confirmed until your order has been processed.",虽然该商品在网上显示有库存，但只有在订单处理完成后才能确认是否有货。,in stock=有库存;availability=是否有货
+C10,customer_service,medium,"You may reschedule once without charge, but subsequent changes will incur a S$25 fee.",您可以免费改期一次，但之后每次更改将收取25新元的费用。,reschedule=改期;incur a fee=收取费用
+C11,customer_service,hard,A pending card transaction may disappear temporarily and reappear after the merchant completes settlement.,待处理的银行卡交易可能会暂时消失，并在商户完成结算后重新出现。,pending transaction=待处理的交易;settlement=结算
+C12,customer_service,medium,"Please photograph the damaged packaging before disposing of it, as we may need the images to process your claim.",请在丢弃破损包装前拍照，因为我们可能需要这些照片来处理您的索赔申请。,damaged packaging=破损包装;claim=索赔申请
+C13,customer_service,hard,The fare difference is payable even when the change fee has been waived.,即使免除了改签费，票价差额仍须支付。,fare difference=票价差额;change fee=改签费;waived=免除
+C14,customer_service,medium,"Your account remains active, but outgoing transfers have been restricted while we verify your identity.",您的账户仍处于启用状态，但在我们核实您的身份期间，转出款项功能将受到限制。,outgoing transfers=转出款项;verify your identity=核实您的身份
+C15,customer_service,hard,"We received the return, but the refund cannot be issued until the serial number has been verified.",我们已收到退货，但必须核实序列号后才能发放退款。,serial number=序列号;refund=退款
+C16,customer_service,medium,"If the replacement also fails, contact us before attempting any further repair.",如果替换品也发生故障，请在尝试进一步维修之前联系我们。,replacement=替换品;further repair=进一步维修
+F07,formatting,hard,"Input: `{ ""user_id"": 1042, ""active"": false }` | Output: `{ ""status"": ""queued"" }`","输入：`{ ""user_id"": 1042, ""active"": false }` | 输出：`{ ""status"": ""queued"" }`",Input=输入;Output=输出
+F08,formatting,medium,"The ratio was 3:2, not 2:3; the difference changes the allocation by 16.7%.",比例为3:2，而不是2:3；这一差异使分配结果改变16.7%。,ratio=比例;allocation=分配结果
+F09,formatting,hard,"Send the signed form to Level 4, 81 Victoria Street, Singapore 188065 by 17:00 SGT.",请在新加坡时间17:00前，将已签署的表格送至新加坡维多利亚街81号4楼，邮编188065。,signed form=已签署的表格;SGT=新加坡时间
+F10,formatting,medium,File name: `report_final_v3.pdf` | Size: 8.2 MB | SHA-256: `9f86d081884c7d65`,文件名：`report_final_v3.pdf` | 大小：8.2 MB | SHA-256：`9f86d081884c7d65`,File name=文件名;Size=大小
+F11,formatting,hard,"Schedule:
+- Registration: 08:45–09:15
+- Session A: 09:30–10:50
+- Break: 10:50–11:10","日程：
+- 签到：08:45–09:15
+- A场：09:30–10:50
+- 休息：10:50–11:10",Schedule=日程;Registration=签到;Break=休息
+F12,formatting,medium,Contact **Ms Tan** at `tan@example.com` and quote case number `CS-2048` in the subject line.,请联系**陈女士**（`tan@example.com`），并在主题栏中注明案件编号`CS-2048`。,case number=案件编号;subject line=主题栏
+F13,formatting,hard,Use the formula `net = gross × (1 - 0.09)`; do not round until the final step.,使用公式`net = gross × (1 - 0.09)`；在最后一步之前不要进行四舍五入。,formula=公式;round=四舍五入
+F14,formatting,medium,"Version 2.1.0 is compatible with Python 3.10–3.12, but not with Python 3.9.",2.1.0版本兼容Python 3.10–3.12，但不兼容Python 3.9。,compatible=兼容
+F15,formatting,hard,"To confirm, reply exactly `I AGREE`—including the space—before 23:59 UTC+8.",如需确认，请在UTC+8时间23:59前准确回复`I AGREE`，包括中间的空格。,To confirm=如需确认;including the space=包括中间的空格
+F16,formatting,medium,The package dimensions are 30 cm × 20 cm × 12.5 cm; gross weight is 4.08 kg.,包裹尺寸为30厘米×20厘米×12.5厘米；毛重为4.08千克。,package dimensions=包裹尺寸;gross weight=毛重
+S07,stress,hard,"The device is hardly inexpensive, but its lower failure rate may justify the initial cost.",该设备绝非便宜，但其较低的故障率或许能证明这笔初始成本是合理的。,failure rate=故障率;initial cost=初始成本
+S08,stress,hard,The chair asked the secretary to tell the director that her revised schedule had been accepted.,主席请秘书告知主任，她修订后的日程已获接受。,chair=主席;secretary=秘书;director=主任
+S09,stress,hard,"Fewer than one in twenty applications were rejected, despite the acceptance criteria becoming stricter.",尽管录取标准变得更加严格，但被拒的申请仍不足二十分之一。,acceptance criteria=录取标准;rejected=被拒
+S10,stress,hard,A recommendation to postpone the launch was discussed but ultimately not adopted.,推迟发布的建议曾被讨论，但最终未被采纳。,postpone=推迟;launch=发布;adopted=采纳
+S11,stress,hard,Not all customers who received the message were eligible for the refund.,收到该消息的客户并非全都有资格获得退款。,eligible=有资格;refund=退款
+S12,stress,hard,"The update is expected to reduce, rather than eliminate, the risk of duplicate records.",该更新预计会降低重复记录的风险，而不是彻底消除该风险。,rather than=而不是;duplicate records=重复记录
+S13,stress,hard,"It was the second proposal, not the first, that the committee declined to reconsider.",委员会拒绝重新考虑的是第二项提案，而不是第一项。,declined to reconsider=拒绝重新考虑
+S14,stress,hard,"The report is not due until Friday, so submitting it on Thursday would not be late.",报告要到周五才截止，因此周四提交并不算迟交。,due=截止;late=迟交
+S15,stress,hard,"Few reviewers found the argument unconvincing, although several requested additional evidence.",几乎没有评审者认为该论点缺乏说服力，尽管有几位要求补充证据。,unconvincing=缺乏说服力;additional evidence=补充证据
+S16,stress,hard,The waiver applies unless the applicant has previously withdrawn from the same programme.,除非申请人此前曾退出同一项目，否则该豁免适用。,waiver=豁免;withdrawn=退出
